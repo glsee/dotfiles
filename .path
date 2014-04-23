@@ -1,3 +1,5 @@
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
+# Added for Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
