@@ -1,0 +1,57 @@
+# Install native apps
+brew install phinze/cask/brew-cask
+brew tap caskroom/versions
+
+function installcask() {
+	brew cask install "${@}" 2> /dev/null
+}
+
+installcask java
+
+installcask android-file-transfer
+installcask android-studio
+installcask apptrap
+installcask caffeine
+installcask dash
+installcask dropbox
+installcask github
+installcask firefox
+installcask flash
+installcask gas-mask
+installcask google-chrome
+installcask google-chrome-canary
+installcask imagealpha
+installcask imageoptim
+installcask iterm2
+installcask jsonlook
+installcask keka
+installcask launchrocket
+installcask mplayerx
+installcask moom
+installcask multibrowser
+installcask netbeans-php
+installcask opera
+installcask opera-developer
+installcask opera-next
+installcask qlcolorcode
+installcask qlimagesize
+installcask qlmarkdown
+installcask qlprettypatch
+installcask qlstephen
+installcask quicklook-csv
+installcask quicklook-json
+installcask sauce
+installcask sequel-pro
+installcask shuttle
+installcask skype
+installcask spotify
+
+# Not working
+#installcask sublime-text
+
+installcask thunder
+installcask tunnelbear
+installcask tunnelblick
+installcask virtualbox
+installcask vagrant
+installcask xquartz
